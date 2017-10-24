@@ -1,0 +1,26 @@
+<div class="standard-box">
+
+  <h2 class="header-box"><a href="articles-list.html">Editors reviews</a></h2>
+
+  <div class="row solid">
+
+    <div class="col col-sm-4 col-xs-6" *ngFor="let editorReview of editorReviews">
+      <div class="item-img-square">
+        <a href="tmp-pages/so.html">
+                                <img class="img-responsive full-width" src="{{editorReview.imgUrl}}" alt="{{editorReview.title}}">                                
+                                <span class="description">
+                                    <span class="title">{{editorReview.title}}</span>
+                                    <span class="info"><strong>{{editorReview.date}}</strong> by <span class="user">{{editorReview.editor.name}}</span></span>
+                                </span>
+                            </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="standard-box-more">
+    <span class="line"></span>
+    <a href="articles-list.html" data-toggle="tooltip" data-placement="left" title="" data-original-title="Click for more...">more »</a>
+  </div>
+
+</div>

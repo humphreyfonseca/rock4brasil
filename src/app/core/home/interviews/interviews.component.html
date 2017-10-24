@@ -1,0 +1,20 @@
+<div class="standard-box">
+
+  <h2 class="header-box"><a href="faq.html">Interviews</a></h2>
+
+  <ul class="list with-links list-headers">
+
+    <li *ngFor = 'let interview of interviews'>
+      <h3>
+        <a href="faq.html">{{interview.title}}</a>
+      </h3>
+    </li>    
+
+  </ul>
+
+  <div class="standard-box-more">
+    <span class="line"></span>
+    <a href="faq.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Click for more...">more »</a>
+  </div>
+
+</div>

@@ -1,0 +1,21 @@
+<div class="standard-box">
+
+  <h2 class="header-box"><a href="articles-list.html">Concerts</a></h2>
+
+  <div class="standard-text-list">
+
+    <div class="item" *ngFor = 'let concert of concerts'>
+      <h3>
+        <a href="article-item.html">{{concert.title}}</a>
+      </h3>
+      <p>{{concert.date}} - {{concert.location}}</p>
+    </div>
+
+  </div>
+
+  <div class="standard-box-more">
+    <span class="line"></span>
+    <a href="articles-list.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Click for more...">more »</a>
+  </div>
+
+</div>

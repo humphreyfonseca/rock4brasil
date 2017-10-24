@@ -1,0 +1,226 @@
+{
+
+	"featured": {
+		"id": 1,
+		"imgPath": "assets/img/artists/marillion-XL.jpg",
+		"imgUrl": null,
+		"title": "Marillion - Somewhere Else II",
+		"description": "New Marillion album is coming. With 10 new tracks. It's called Somewhere Else. It will be released on 9 April 2007.The Band says that",
+		"content": null
+
+
+	},
+
+	"editorReviews": [{
+		"id": 1,
+		"title": "Peter Gabriel - So",
+		"date": "2014-01-22T00:00:00.000Z",
+		"imgPath": "assets/img/covers/so-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 1,
+			"name": "jackie"
+		}
+	}, {
+		"id": 2,
+		"title": "Katatonia - The Great Cold Distance",
+		"date": "2013-12-06T00:00:00.000Z",
+		"imgPath": "assets/img/covers/great-cold-distance-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 2,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 3,
+		"title": "Pink Floyd - Dark Side Of The Moon",
+		"date": "2013-12-03T00:00:00.000Z",
+		"imgPath": "assets/img/covers/dark-side-of-the-moon-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 3,
+			"name": "kate"
+		}
+	}, {
+		"id": 4,
+		"title": "U2 - Achtung Baby",
+		"date": "2013-11-22T00:00:00.000Z",
+		"imgPath": "assets/img/covers/achtung-baby-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 4,
+			"name": "johnny"
+		}
+	}, {
+		"id": 5,
+		"title": "Porcupine Tree - Deadwing",
+		"date": "2013-02-06T00:00:00.000Z",
+		"imgPath": "assets/img/covers/deadwing-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 2,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 6,
+		"title": "Metallica - St. Anger",
+		"date": "2013-11-21T00:00:00.000Z",
+		"imgPath": "assets/img/covers/st-anger-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 5,
+			"name": "the_moor"
+		}
+	}, {
+		"id": 7,
+		"title": "Mastodon - The Hunter",
+		"date": "2013-11-01T00:00:00.000Z",
+		"imgPath": "assets/img/covers/hunter-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 2,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 8,
+		"title": "Radiohead - Ok Computer",
+		"date": "2013-11-02T00:00:00.000Z",
+		"imgPath": "assets/img/covers/ok-computer-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 6,
+			"name": "adam"
+		}
+	}, {
+		"id": 7,
+		"title": "Prodigy - The Fat Of The Land",
+		"date": "2013-10-27T00:00:00.000Z",
+		"imgPath": "assets/img/covers/fat-of-the-land-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 7,
+			"name": "super8"
+		}
+	}],
+	"news": [{
+		"id": 1,
+		"title": "Radiohead with brand new album?",
+		"description": "New Radiohead album is up in the air, says bassist Colin Greenwood. We\re looking forward to it. We love Radiohead and all their albums... ",
+		"date": "2001-03-06T03:00:00.000Z",
+		"imgPath": "assets/img/artists/radiohead-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 1,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 2,
+		"title": "Riverside - Shrine of New Generation Slaves - album details",
+		"description": "New Radiohead album is up in the air, says bassist Colin Greenwood. We\re looking forward to it. We love Radiohead and all their albums... ",
+		"date": "2001-01-09T02:00:00.000Z",
+		"imgPath": "assets/img/covers/songs-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 2,
+			"name": "adam"
+		}
+	}, {
+		"id": 3,
+		"title": "Roger Waters with The Wall live",
+		"description": "The Wall Live by Roger Waters is a worldwide concert tour, member of Pink Floyd band...",
+		"date": "2001-12-15T02:00:00.000Z",
+		"imgPath": "assets/img/posters/the-wall-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 3,
+			"name": "super8"
+		}
+	}, {
+		"id": 4,
+		"title": "New album of Anathema in September",
+		"description": "At 5 September there is a release date of new Anathema album - Falling Deeper. The band present the orchestral...",
+		"date": "2001-01-09T02:00:00.000Z",
+		"imgPath": "assets/img/covers/falling-deeper-L.jpg",
+		"imgUrl": null,
+		"editor": {
+			"id": 1,
+			"name": "kwarc"
+		}
+	}],
+	"musicOnWeb": [{
+		"id": 1,
+		"title": "Music nation rules!",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis faucibus neque. Vivamus vel erat tempor, gravida quam non, egestas quam",
+		"imgPath": "assets/img/photos/concert-1-L.jpg",
+		"date": "2001-02-08T02:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 2,
+		"title": "Check out Music nation",
+		"description": "Donec congue risus vel est tincidunt fermentum. Integer ut porttitor lectus. Quisque sit amet pulvinar justo. Cras justo mauris",
+		"imgPath": "assets/img/photos/concert-2-L.jpg",
+		"date": "2001-02-06T02:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "kwarc"
+		}
+	}],
+	"usersReviews": [{
+		"id": 1,
+		"title": "Archive - Controlling Crowds",
+		"imgPath": "assets/img/covers/controlling-crowds-L.jpg",
+		"date": "2013-02-06T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "tadek"
+		}
+	}, {
+		"id": 2,
+		"title": "Dream Theater - A Change Of Seasons",
+		"imgPath": "assets/img/covers/change-of-seasons-L.jpg",
+		"date": "2013-02-06T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "tadek"
+		}
+	}, {
+		"id": 3,
+		"title": "Katatonia - The Great Cold Distance",
+		"imgPath": "assets/img/covers/great-cold-distance-L.jpg",
+		"date": "2013-02-06T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "tadek"
+		}
+	}, {
+		"id": 4,
+		"title": "Iron Maiden - Powerslave",
+		"imgPath": "assets/img/covers/powerslave-L.jpg",
+		"date": "2013-02-06T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "tadek"
+		}
+	}, {
+		"id": 5,
+		"title": "U2 - Achtung Baby",
+		"imgPath": "assets/img/covers/achtung-baby-L.jpg",
+		"date": "2013-02-06T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "tadek"
+		}
+	}, {
+		"id": 6,
+		"title": "Metallica - St. Anger",
+		"imgPath": "assets/img/covers/st-anger-L.jpg",
+		"date": "2013-02-06T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "tadek"
+		}
+	}]
+}

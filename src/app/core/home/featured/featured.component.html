@@ -1,0 +1,32 @@
+
+
+  <div class="standard-box">
+
+    <h2 class="header-box">
+      <a routerLink="/article-list">Featured</a>
+    </h2>
+
+    <div class="recommended-box">
+
+      <div class="featured">
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <a routerLink="article/article-item/{{featured.id}}"  title="{{featured.title}}">
+                        <img class="img-responsive full-width" src="{{featured.imgUrl}}" alt="{{featured.title}}">
+                    </a>
+
+      <div class="description">
+
+        <h3>
+          <a routerLink="/article-item/{{featured.id}}">{{featured.title}}</a>
+        </h3>
+        <p>{{featured.description}}...<a routerLink="/article-item/{{featured.id}}" title="more">»</a></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+

@@ -1,0 +1,28 @@
+<div class="standard-box">
+
+  <h2 class="header-box"><a href="articles-list.html">News</a></h2>
+
+  <div class="row">
+
+    <div class="col-sm-3 col-xs-6" *ngFor='let new of news'>
+      <div class="standard-extend-item">
+        <a class="image" href="#">
+                                <span class="date">{{new.date.getDay()}}<br>{{new.date.getMonth()}}</span>
+                                <span class="author">by <strong>{{new.editor.name}}</strong></span>
+                                <img class="img-responsive full-width" src="{{new.imgUrl}}" alt="{{new.title}}">
+                            </a>
+        <h3>
+          <a href="article-item.html">{{new.title}}</a>
+        </h3>
+        <p>{{new.description}} <a href="article-item.html" title="more">»</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="standard-box-more margin-top-min-5">
+    <span class="line"></span>
+    <a href="articles-list.html" data-toggle="tooltip" data-placement="left" title="" data-original-title="Click for more...">more »</a>
+  </div>
+
+</div>

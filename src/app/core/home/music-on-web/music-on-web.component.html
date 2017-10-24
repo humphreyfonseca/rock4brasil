@@ -1,0 +1,25 @@
+<div class="standard-box margin-bottom-5">
+
+  <h2 class="header-box">Music nation on the web</h2>
+
+  <div class="row">
+
+    <div class="col-sm-6 col-xs-6" *ngFor='let musicOnweb of musicOnWebs'>
+      <div class="standard-extend-item">
+        <a class="image" href="article-item.html">
+                                <span class="date">{{musicOnweb.date.getDay()}}<br>{{musicOnweb.date.getMonth()}}</span>
+                                <span class="author">by <strong>kwarc</strong></span>
+                                <img class="img-responsive full-width" src="{{musicOnweb.imgUrl}}" alt="photo by Martin Fisch">
+                            </a>
+        <h3>
+          <a href="article-item.html">{{musicOnweb.title}}</a>
+        </h3>
+        <p>{{musicOnweb.description}}<a href="article-item.html" title="more">»</a></p>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+</div>

@@ -1,0 +1,84 @@
+{
+	"editorReviews": [{
+		"id": 1,
+		"title": "Peter Gabriel - So",
+		"date": "2014-01-22T00:00:00.000Z",
+		"imgPath": "assets/img/covers/so-L.jpg",
+		"editor": {
+			"id": 1,
+			"name": "jackie"
+		}
+	}, {
+		"id": 2,
+		"title": "Katatonia - The Great Cold Distance",
+		"date": "2013-12-06T00:00:00.000Z",
+		"imgPath": "assets/img/covers/great-cold-distance-L.jpg",
+		"editor": {
+			"id": 2,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 3,
+		"title": "Pink Floyd - Dark Side Of The Moon",
+		"date": "2013-12-03T00:00:00.000Z",
+		"imgPath": "assets/img/covers/dark-side-of-the-moon-L.jpg",
+		"editor": {
+			"id": 3,
+			"name": "kate"
+		}
+	}, {
+		"id": 4,
+		"title": "U2 - Achtung Baby",
+		"date": "2013-11-22T00:00:00.000Z",
+		"imgPath": "assets/img/covers/achtung-baby-L.jpg",
+		"editor": {
+			"id": 4,
+			"name": "johnny"
+		}
+	}, {
+		"id": 5,
+		"title": "Porcupine Tree - Deadwing",
+		"date": "2013-02-06T00:00:00.000Z",
+		"imgPath": "assets/img/covers/deadwing-L.jpg",
+		"editor": {
+			"id": 2,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 6,
+		"title": "Metallica - St. Anger",
+		"date": "2013-11-21T00:00:00.000Z",
+		"imgPath": "assets/img/covers/st-anger-L.jpg",
+		"editor": {
+			"id": 5,
+			"name": "the_moor"
+		}
+	}, {
+		"id": 7,
+		"title": "Mastodon - The Hunter",
+		"date": "2013-11-01T00:00:00.000Z",
+		"imgPath": "assets/img/covers/hunter-L.jpg",
+		"editor": {
+			"id": 2,
+			"name": "kwarc"
+		}
+	}, {
+		"id": 8,
+		"title": "Radiohead - Ok Computer",
+		"date": "2013-11-02T00:00:00.000Z",
+		"imgPath": "assets/img/covers/ok-computer-L.jpg",
+		"editor": {
+			"id": 6,
+			"name": "adam"
+		}
+	}, {
+		"id": 7,
+		"title": "Prodigy - The Fat Of The Land",
+		"date": "2013-10-27T00:00:00.000Z",
+		"imgPath": "assets/img/covers/fat-of-the-land-L.jpg",
+		"editor": {
+			"id": 7,
+			"name": "super8"
+		}
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	"featured": {
+		"id": 1,
+		"imgPath": "assets/img/artists/marillion-XL.jpg",
+		"title": "Marillion - Somewhere Else II",
+		"description": "New Marillion album is coming. With 10 new tracks. It's called Somewhere Else. It will be released on 9 April 2007.The Band says that",
+		"content": null
+
+
+	}
+}

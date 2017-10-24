@@ -1,0 +1,26 @@
+<div class="standard-box">
+
+  <h2 class="header-box"><a href="articles-list.html">Users reviews</a></h2>
+
+  <div class="row solid">
+
+    <div class="col col-sm-4 col-xs-6" *ngFor = 'let userReview of userReviews'>
+      <div class="item-img-square">
+        <a href="tmp-pages/controlling-crowds.html">
+                                <img class="img-responsive full-width" src="{{userReview.imgUrl}}" alt="{{userReview.title}}">
+                                <span class="description">
+                                    <span class="title">{{userReview.title}}</span>
+                                    <span class="info"><strong>{{userReview.date}}</strong> by <span class="user">{{userReview.editor.name}}</span></span>
+                                </span>
+                            </a>
+      </div>
+    </div>
+   
+  </div>
+
+  <div class="standard-box-more">
+    <span class="line"></span>
+    <a href="articles-list.html" data-toggle="tooltip" data-placement="left" title="" data-original-title="Click for more...">more »</a>
+  </div>
+
+</div>

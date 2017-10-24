@@ -1,0 +1,19 @@
+<div class="standard-box">
+
+  <h2 class="header-box">Last albums -II</h2>
+
+  <div class="standard-text-list">
+
+    <div class="item" *ngFor = 'let lastAlbum of lastAlbums'>
+      <a href="tmp-pages/celebration-day.html">
+                            <img src="{{lastAlbum.imgPath}}" alt="{{lastAlbum.band.name}} - {{lastAlbum.title}}">
+                        </a>
+      <h3>
+        <a href="tmp-pages/celebration-day.html">{{lastAlbum.band.name}} - {{lastAlbum.title}}</a>
+      </h3>
+    </div>
+    
+
+  </div>
+
+</div>
