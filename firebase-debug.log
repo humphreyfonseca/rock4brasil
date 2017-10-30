@@ -1,0 +1,75 @@
+[debug] [2017-10-24T12:24:14.514Z] ----------------------------------------------------------------------
+[debug] [2017-10-24T12:24:14.517Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\c110503\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-10-24T12:24:14.518Z] CLI Version:   3.13.1
+[debug] [2017-10-24T12:24:14.518Z] Platform:      win32
+[debug] [2017-10-24T12:24:14.518Z] Node Version:  v6.9.2
+[debug] [2017-10-24T12:24:14.518Z] Time:          Tue Oct 24 2017 10:24:14 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:24:14.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-24T12:24:14.537Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-10-24T12:24:14.538Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Desenvolvimento\PESSOAL\PROJETOS\PortalMetal2
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2017-10-24T12:31:42.959Z] ----------------------------------------------------------------------
+[debug] [2017-10-24T12:31:42.963Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\c110503\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-10-24T12:31:42.963Z] CLI Version:   3.13.1
+[debug] [2017-10-24T12:31:42.963Z] Platform:      win32
+[debug] [2017-10-24T12:31:42.963Z] Node Version:  v6.9.2
+[debug] [2017-10-24T12:31:42.964Z] Time:          Tue Oct 24 2017 10:31:42 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:31:42.964Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-24T12:31:42.978Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-24T12:31:42.979Z] > authorizing via signed-in user
+[debug] [2017-10-24T12:31:42.981Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-24T12:31:42.982Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/8vgdg5aSUUdr_c71KTg-TbOyJ-cvKaYe4LN4tfbVTuE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 24 2017 10:31:42 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:31:44.000Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-24T12:31:44.022Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pmetal-1a8fe  
+ Tue Oct 24 2017 10:31:44 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:31:45.873Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-24T12:31:45.875Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pmetal-1a8fe/tokens  
+ Tue Oct 24 2017 10:31:45 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:31:46.734Z] <<< HTTP RESPONSE 200
+[info] 1
+[info] 
+[info] === Deploying to 'pmetal-1a8fe'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2017-10-24T12:31:50.243Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pmetal-1a8fe/uploads/-KxDMWFPtbErKvMyELBK?fileCount=93&message=  
+ Tue Oct 24 2017 10:31:50 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:32:09.576Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-24T12:32:09.577Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[info] +  hosting: 93 files uploaded successfully
+[debug] [2017-10-24T12:32:10.141Z] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/pmetal-1a8fe/releases { hosting: 
+   { public: 'dist',
+     ignore: [ 'firebase.json', '**/.*', '**/node_modules/**' ],
+     rewrites: [ [Object] ],
+     version: '-KxDMWFPtbErKvMyELBK',
+     prefix: '-KxDMWFPtbErKvMyELBK/',
+     manifest: [] } } 
+ Tue Oct 24 2017 10:32:10 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-10-24T12:32:11.188Z] <<< HTTP RESPONSE 200
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/pmetal-1a8fe/overview
+[info] Hosting URL: https://pmetal-1a8fe.firebaseapp.com

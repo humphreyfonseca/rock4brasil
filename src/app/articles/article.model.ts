@@ -1,12 +1,12 @@
-import { Editor } from './../editor-reviews/editor.model';
+import { Editor } from './../core/home/editor-reviews/editor.model';
 /**
  * 
  * @author Humphrey Fonseca
- * @description Classe que representa o objeto intrevista
+ * @description Classe que representa o objeto article
  * @export
  * @class Interview
  */
-export class Interview{
+export class Article{
 
     public id : number;
     public title : string;

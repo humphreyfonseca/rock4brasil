@@ -7,9 +7,9 @@
  * @class Tag
  */
 export class Tag{
-    private id : number;
-    private title : string;
-    private rating : number;
+    public id : number;
+    public title : string;
+    public rating : number;
 
     constructor(id : number, title : string, rating : number){
         this.id = id;

@@ -6,10 +6,10 @@
  * @class Concert
  */
 export class Concert{
-    private id: number;
-    private title : string;
-    private date : Date;
-    private location : string;
+    public id: number;
+    public title : string;
+    public date : Date;
+    public location : string;
 
     constructor(id: number, title : string, date : Date, location : string){
         this.id = id;

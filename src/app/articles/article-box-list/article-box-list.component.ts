@@ -1,3 +1,5 @@
+import { ArticleService } from './../article.service';
+import { Article } from './../article.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleBoxListComponent implements OnInit {
 
-  constructor() { }
+  public articles : Article[];
+
+  constructor(private articleService : ArticleService) { }
 
   ngOnInit() {
+    this.articleService.getLastArticles().subscribe(resp =>{
+      this.articles = resp;
+    });
   }
 
 }

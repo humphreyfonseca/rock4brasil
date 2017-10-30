@@ -15,7 +15,9 @@ export class LastBandAddComponent implements OnInit {
   constructor(private lastBandService : LastBandService) { }
 
   ngOnInit() {
-    this.lastBands = this.lastBandService.getLastBandsAdd();
+    this.lastBandService.getLastBandsAdd().subscribe(resp => {
+      this.lastBands = resp;
+    });
   }
 
 }

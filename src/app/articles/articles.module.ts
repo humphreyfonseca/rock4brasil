@@ -1,3 +1,4 @@
+import { ArticleService } from './article.service';
 import { ArticlesRoutingModule } from './articles-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -14,6 +15,9 @@ import { ArticlesComponent } from './articles/articles.component';
   declarations: [ArticleItemComponent, ArticleListComponent, ArticleBoxListComponent, ArticlesComponent],
   exports:[
     ArticleBoxListComponent
+  ],
+  providers:[
+    ArticleService
   ]
 })
 export class ArticlesModule { }

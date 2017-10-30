@@ -15,7 +15,10 @@ export class TagsComponent implements OnInit {
   constructor(private tagsService : TagsService) { }
 
   ngOnInit() {
-    this.tags = this.tagsService.getHighRatingTags();
+    this.tagsService.getHighRatingTags().subscribe(resp => {
+      this.tags = resp;
+
+    });
   }
 
 }

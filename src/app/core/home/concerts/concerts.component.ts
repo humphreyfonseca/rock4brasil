@@ -15,7 +15,9 @@ export class ConcertsComponent implements OnInit {
   constructor(private concertsService : ConcertsService) { }
 
   ngOnInit() {
-    this.concerts = this.concertsService.getLastConcerts();
+    this.concertsService.getLastConcerts().subscribe(resp => {
+      this.concerts = resp;
+    });
   }
 
 }

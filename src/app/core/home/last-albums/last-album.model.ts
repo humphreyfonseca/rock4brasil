@@ -7,15 +7,17 @@ import { Band } from './band.model';
  * @class LastAlbum
  */
 export class LastAlbum{
-    private id : number;
-    private title : string;
-    private imgPath : string;
-    private band : Band;
+    public id : number;
+    public title : string;
+    public imgPath : string;
+    public imgUrl : string;
+    public band : Band;
 
-    constructor(id : number, title : string, imgPath : string, band : Band){        
+    constructor(id : number, title : string, imgPath : string, imgUrl : string, band : Band){        
         this.id = id;
         this.title = title;
         this.imgPath = imgPath;
+        this.imgUrl = imgUrl;
         this.band = band;
 
     }

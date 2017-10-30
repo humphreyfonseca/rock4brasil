@@ -7,15 +7,17 @@ import { Editor } from './../editor-reviews/editor.model';
  * @class LastBand
  */
 export class LastBand {
-    private id : number;
-    private title : string;
-    private imgPath : string;
-    private editor : Editor;
+    public id : number;
+    public title : string;
+    public imgPath : string;
+    public imgUrl : string;
+    public editor : Editor;
 
-    constructor(id : number, title : string, imgPath : string, editor : Editor){
+    constructor(id : number, title : string, imgPath : string, imgUrl : string, editor : Editor){
         this.id = id;
         this.title = title;
         this.imgPath = imgPath;
+        this.imgUrl = imgUrl;
         this.editor = editor;
 
     }

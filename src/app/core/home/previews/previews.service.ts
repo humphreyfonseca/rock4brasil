@@ -1,15 +1,36 @@
+import { Observable } from 'rxjs/Observable';
+import { AngularFireDatabase } from 'angularfire2/database';
 import { Preview } from './preview.model';
 import { Injectable } from '@angular/core';
+import * as firebase from 'firebase';
 @Injectable()
 export class PreviewService{
 
-    private preview: Preview[] = [
-        new Preview(1, 'Peter Gabriel - So', 4, 'assets/img/covers/so-L.jpg', new Date('12-10')), 
-        new Preview(2, 'Steven Wilson - Raven That Refused To Sing', 5, 'assets/img/covers/raven-L.jpg', new Date('11-15'))
-        
-    ]
+    
+    private previewsDB: Observable<Preview[]>;
+
+    constructor(private db: AngularFireDatabase){
+
+    }
 
     getLastPreviews(){
-        return this.preview;
+        this.previewsDB = this.db.list('previews').valueChanges<Preview>();
+
+        return this.previewsDB.map(resp => {
+            const result: Preview[] = new Array();
+            resp.forEach((tmp) => {
+                let storegeRef = firebase.storage().ref();
+                storegeRef.child(tmp.imgPath).getDownloadURL().then((url) => {
+                    tmp.imgUrl = url;
+                }).catch((error) => {
+                    console.log(error);
+                })
+                tmp.date = new Date(tmp.date);
+                result.push(tmp);
+
+
+            });
+            return result;
+        });
     }
 }

@@ -1,6 +1,9 @@
+import { AngularFireDatabase } from 'angularfire2/database';
+import { Observable } from 'rxjs/Observable';
 import { Editor } from './../editor-reviews/editor.model';
 import { LastBand } from './last-band.model';
 import { Injectable } from '@angular/core';
+import * as firebase from 'firebase';
 /**
  * 
  * @author Humphrey fonseca
@@ -11,16 +14,29 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class LastBandService {
 
-    private lastBands :LastBand[]=[
-        new LastBand(1,'Sonata Arctica', 'assets/img/persons/person-5.png', new Editor(1, 'JOHN WILSON')),
-        new LastBand(1,'Nightwish', 'assets/img/persons/person-6.png', new Editor(1, 'KATE HOUSTON')),
-        new LastBand(1,'Blind Guardian', 'assets/img/persons/person-7.png', new Editor(1, 'TOM BUCKLEY')),
-        new LastBand(1,'Kamelot', 'assets/img/persons/person-9.png', new Editor(1, 'EDDIE NORTON'))
+    private lastBandsDB : Observable<LastBand[]>;
+    
 
-    ]
+    constructor(private db : AngularFireDatabase){}
 
     getLastBandsAdd(){
-        return this.lastBands;
+        this.lastBandsDB = this.db.list("lastBands").valueChanges<LastBand>();
+        
+        return this.lastBandsDB.map(resp =>{
+            const result: LastBand[] = new Array();
+            resp.forEach((tmp) => {
+                let storegeRef = firebase.storage().ref();
+                storegeRef.child(tmp.imgPath).getDownloadURL().then((url) => {
+                    tmp.imgUrl = url;
+                }).catch((error) => {
+                    console.log(error);
+                })                
+                result.push(tmp);
+
+
+            });
+            return result;
+        });
     }
 
 

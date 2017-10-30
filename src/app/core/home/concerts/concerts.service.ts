@@ -1,5 +1,8 @@
+import { Observable } from 'rxjs/Observable';
+import { AngularFireDatabase } from 'angularfire2/database';
 import { Concert } from './concert.model';
 import { Injectable } from '@angular/core';
+import * as firebase from 'firebase';
 
 /**
  * 
@@ -11,15 +14,25 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ConcertsService{
 
-    private concerts : Concert[] = [
-        new Concert(1,'Mark Knopfler', new Date('2013-05-08'),'Lodz, Atlas Arena'),
-        new Concert(2,'Roger Waters The Wall', new Date('2013-08-20'),'Warszawa'),
-        new Concert(3,'Sonisphere Festival', new Date('2013-10-12'),'Wroclaw'),
-        new Concert(4,'Iron Maiden', new Date('2013-08-20'),'Warszawa')
-    ]
+    private concertsDB: Observable<Concert[]>;
+
+    constructor(private db: AngularFireDatabase) {
+
+    }
 
     getLastConcerts(){
-        return this.concerts;
+        this.concertsDB = this.db.list('concerts').valueChanges<Concert>();
+
+        return this.concertsDB.map(resp => {
+            const result: Concert[] = new Array();
+            resp.forEach((tmp) => {
+                let storegeRef = firebase.storage().ref();
+                
+                tmp.date = new Date(tmp.date);
+                result.push(tmp);
+            });
+            return result;
+        });
     }
 
 }

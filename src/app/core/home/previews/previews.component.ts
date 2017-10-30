@@ -16,7 +16,10 @@ export class PreviewsComponent implements OnInit {
   constructor(private previewService: PreviewService) { }
 
   ngOnInit() {
-    this.previews = this.previewService.getLastPreviews();
+    this.previewService.getLastPreviews().subscribe(resp => {
+      this.previews = resp;
+
+    });
   }
 
   createRange(number) {

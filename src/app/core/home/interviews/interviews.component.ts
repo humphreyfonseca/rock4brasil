@@ -15,7 +15,9 @@ export class InterviewsComponent implements OnInit {
   constructor(private interviewsService : InterviewsService) { }
 
   ngOnInit() {
-    this.interviews = this.interviewsService.getLastInterviews();
+    this.interviewsService.getLastInterviews().subscribe(resp => {
+      this.interviews = resp;
+    });
   }
 
 }

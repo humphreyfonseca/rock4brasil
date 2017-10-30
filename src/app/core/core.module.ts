@@ -22,7 +22,6 @@ import { AppRoutingModule } from '../app-routing.module';
 import { EditorReviewsComponent } from './home/editor-reviews/editor-reviews.component';
 import { LoginComponent } from './home/login/login.component';
 import { NewsComponent } from './home/news/news.component';
-import { ArticlesComponent } from './home/articles/articles.component';
 import { MusicOnWebComponent } from './home/music-on-web/music-on-web.component';
 import { UsersReviewsComponent } from './home/users-reviews/users-reviews.component';
 import { LastAlbumsComponent } from './home/last-albums/last-albums.component';
@@ -42,8 +41,7 @@ import { ArticlesModule } from './../articles/articles.module';
         FeaturedComponent,
         EditorReviewsComponent,
         LoginComponent,
-        NewsComponent,
-        ArticlesComponent,
+        NewsComponent,        
         MusicOnWebComponent,
         UsersReviewsComponent,
         LastAlbumsComponent,

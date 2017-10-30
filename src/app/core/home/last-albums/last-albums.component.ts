@@ -15,7 +15,9 @@ export class LastAlbumsComponent implements OnInit {
   constructor(private lastAlbumsService : LastAlbumsService) { }
 
   ngOnInit() {
-    this.lastAlbums = this.lastAlbumsService.getLastAlbums();
+    this.lastAlbumsService.getLastAlbums().subscribe(resp =>{
+      this.lastAlbums = resp;
+    });
   }
 
 }

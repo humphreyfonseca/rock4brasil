@@ -222,5 +222,288 @@
 			"id": 1,
 			"name": "tadek"
 		}
+	}],
+	"previews": [{
+		"id": 1,
+		"title": "Peter Gabriel - So",
+		"rating": 4,
+		"imgPath": "assets/img/covers/so-L.jpg",
+		"date": "2001-12-10T02:00:00.000Z"
+	}, {
+		"id": 2,
+		"title": "Steven Wilson - Raven That Refused To Sing",
+		"rating": 5,
+		"imgPath": "assets/img/covers/raven-L.jpg",
+		"date": "2001-11-15T02:00:00.000Z"
+	}],
+	"types": [{
+		"id": 1,
+		"title": "Rock",
+		"rating": 1
+	}, {
+		"id": 1,
+		"title": "Heavy meta",
+		"rating": 4
+	}, {
+		"id": 1,
+		"title": "Jazz",
+		"rating": 1
+	}, {
+		"id": 1,
+		"title": "Progressive",
+		"rating": 3
+	}, {
+		"id": 1,
+		"title": "Grunge",
+		"rating": 1
+	}, {
+		"id": 1,
+		"title": "Electronic",
+		"rating": 6
+	}, {
+		"id": 1,
+		"title": "Alternative",
+		"rating": 2
+	}, {
+		"id": 1,
+		"title": "Trip hop",
+		"rating": 7
+	}, {
+		"id": 1,
+		"title": "Post rock",
+		"rating": 4
+	}, {
+		"id": 1,
+		"title": "Avantgarde",
+		"rating": 6
+	}, {
+		"id": 1,
+		"title": "Space rock",
+		"rating": 7
+	}, {
+		"id": 1,
+		"title": "Fusion",
+		"rating": 4
+	}, {
+		"id": 1,
+		"title": "Funk",
+		"rating": 5
+	}, {
+		"id": 1,
+		"title": "Power metal",
+		"rating": 5
+	}, {
+		"id": 1,
+		"title": "Rave",
+		"rating": 3
+	}, {
+		"id": 1,
+		"title": "Doom metal",
+		"rating": 8
+	}, {
+		"id": 1,
+		"title": "Brit pop",
+		"rating": 5
+	}, {
+		"id": 1,
+		"title": "Math metal",
+		"rating": 7
+	}, {
+		"id": 1,
+		"title": "Hardcore",
+		"rating": 5
+	}, {
+		"id": 1,
+		"title": "Punk",
+		"rating": 6
+	}, {
+		"id": 1,
+		"title": "Blues",
+		"rating": 4
+	}, {
+		"id": 1,
+		"title": "Symphony metal",
+		"rating": 7
+	}, {
+		"id": 1,
+		"title": "Noise",
+		"rating": 6
+	}],
+	"lastBands": [{
+		"id": 1,
+		"title": "Kamelot",
+		"imgPath": "assets/img/band/kamelot_one_cold_winters_night.jpg",
+		"editor": {
+			"id": 1,
+			"name": "JOHN WILSON"
+		}
+	}, {
+		"id": 1,
+		"title": "Iron Maiden",
+		"imgPath": "assets/img/band/iron_maiden.jpg",
+		"editor": {
+			"id": 1,
+			"name": "KATE HOUSTON"
+		}
+	}, {
+		"id": 1,
+		"title": "Shaman",
+		"imgPath": "assets/img/band/shaman.jpg",
+		"editor": {
+			"id": 1,
+			"name": "TOM BUCKLEY"
+		}
+	}, {
+		"id": 1,
+		"title": "Metallica",
+		"imgPath": "assets/img/band/metallica.jpg",
+		"editor": {
+			"id": 1,
+			"name": "EDDIE NORTON"
+		}
+	}],
+	"concerts": [{
+		"id": 1,
+		"title": "Mark Knopfler",
+		"date": "2013-05-08T00:00:00.000Z",
+		"location": "Lodz, Atlas Arena"
+	}, {
+		"id": 2,
+		"title": "Roger Waters The Wall",
+		"date": "2013-08-20T00:00:00.000Z",
+		"location": "Warszawa"
+	}, {
+		"id": 3,
+		"title": "Sonisphere Festival",
+		"date": "2013-10-12T00:00:00.000Z",
+		"location": "Wroclaw"
+	}, {
+		"id": 4,
+		"title": "Iron Maiden",
+		"date": "2013-08-20T00:00:00.000Z",
+		"location": "Warszawa"
+	}],
+	"interviews": [{
+		"id": 1,
+		"title": "What is music-nation?",
+		"date": "2013-05-18T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "Zack"
+		}
+	}, {
+		"id": 2,
+		"title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+		"date": "2014-06-28T00:00:00.000Z",
+		"editor": {
+			"id": 2,
+			"name": "Lauren"
+		}
+	}, {
+		"id": 3,
+		"title": "Nullam id elit mi. Fusce porta mauris a orci tristique convallis?",
+		"date": "2014-02-02T00:00:00.000Z",
+		"editor": {
+			"id": 3,
+			"name": "Josh"
+		}
+	}, {
+		"id": 4,
+		"title": "Fusce eget tincidunt enim?",
+		"date": "2013-05-23T00:00:00.000Z",
+		"editor": {
+			"id": 4,
+			"name": "Paul"
+		}
+	}, {
+		"id": 5,
+		"title": "In eget pretium nibh, sed scelerisque massa?",
+		"date": "2014-03-06T00:00:00.000Z",
+		"editor": {
+			"id": 5,
+			"name": "Tony"
+		}
+	}],
+	"articles": [{
+		"id": 1,
+		"title": "Radiohead Concert at Poznan",
+		"date": "2013-05-18T00:00:00.000Z",
+		"editor": {
+			"id": 1,
+			"name": "Zack"
+		}
+	}, {
+		"id": 2,
+		"title": "In The Court Of The Crimson King",
+		"date": "2014-06-28T00:00:00.000Z",
+		"editor": {
+			"id": 2,
+			"name": "Lauren"
+		}
+	}, {
+		"id": 3,
+		"title": "About cover art of Heritage by Opeth",
+		"date": "2014-02-02T00:00:00.000Z",
+		"editor": {
+			"id": 3,
+			"name": "Josh"
+		}
+	}, {
+		"id": 4,
+		"title": "Iron Maiden at concert",
+		"date": "2013-05-23T00:00:00.000Z",
+		"editor": {
+			"id": 4,
+			"name": "Paul"
+		}
+	}, {
+		"id": 5,
+		"title": "Old musical box - about Nursery Cryme",
+		"date": "2014-03-06T00:00:00.000Z",
+		"editor": {
+			"id": 5,
+			"name": "Tony"
+		}
+	}],
+	"lastAlbums": [{
+		"id": 1,
+		"title": "Celebration Day",
+		"imgPath": "assets/img/covers/celebration-day-S.jpg",
+		"band": {
+			"id": 1,
+			"name": "Led Zeppelin"
+		}
+	}, {
+		"id": 2,
+		"title": "St. Anger",
+		"imgPath": "assets/img/covers/st-anger-S.jpg",
+		"band": {
+			"id": 2,
+			"name": "Metallica "
+		}
+	}, {
+		"id": 3,
+		"title": "So",
+		"imgPath": "assets/img/covers/so-S.jpg",
+		"band": {
+			"id": 3,
+			"name": "Peter Gabriel"
+		}
+	}, {
+		"id": 4,
+		"title": "Dark Side Of The Moon",
+		"imgPath": "assets/img/covers/dark-side-of-the-moon-S.jpg",
+		"band": {
+			"id": 4,
+			"name": "Pink Floyd"
+		}
+	}, {
+		"id": 5,
+		"title": "The Fat Of The Land",
+		"imgPath": "assets/img/covers/fat-of-the-land-S.jpg",
+		"band": {
+			"id": 5,
+			"name": "Prodigy"
+		}
 	}]
 }
